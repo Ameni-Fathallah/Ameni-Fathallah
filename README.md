@@ -94,6 +94,51 @@ class Ameni:
   </tr>
 </table>
 
+### 🧪 More projects
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🤝 CV × Freelance Matching</h4>
+      <img src="https://img.shields.io/badge/Recommender-9D4EDD?style=flat-square"/>
+      <p><sub>Recommends relevant freelance projects from a CV profile. Scraping, preprocessing, <b>TF-IDF + cosine similarity</b> scoring and interactive Plotly visuals.</sub></p>
+      <code>Python</code> <code>TF-IDF</code> <code>Plotly</code>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🎓 Student Performance</h4>
+      <img src="https://img.shields.io/badge/R%C2%B2-%E2%89%880.80-2CB67D?style=flat-square"/> <img src="https://img.shields.io/badge/Acc-70.5%25-2CB67D?style=flat-square"/>
+      <p><sub>End-to-end data mining workflow on 1,220 students: skew-aware imputation, outlier handling, pipeline comparison, regression, classification, PCA, clustering and SMOTE, tuned with <b>GridSearch</b>.</sub></p>
+      <code>Scikit-learn</code> <code>Pandas</code> <code>SMOTE</code>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🖼️ Seam Carving</h4>
+      <img src="https://img.shields.io/badge/Graph%20theory-9D4EDD?style=flat-square"/> <img src="https://img.shields.io/badge/Width-%E2%88%9250%25-2CB67D?style=flat-square"/>
+      <p><sub>Content-aware image resizing: Sobel energy map, image modeled as a <b>DAG</b>, optimal seams found by dynamic programming in O(V+E). Halves the width without visible distortion.</sub></p>
+      <code>Python</code> <code>NumPy</code> <code>Dynamic programming</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🩺 AI in Healthcare survey</h4>
+      <img src="https://img.shields.io/badge/PCA%20%2B%20MCA-9D4EDD?style=flat-square"/>
+      <p><sub>Statistical study of a 40-question survey on how people perceive AI in medicine. Descriptive stats, <b>PCA and MCA</b> to uncover perceived benefits, risks, trust and ethical concerns.</sub></p>
+      <code>R</code> <code>FactoMineR</code> <code>Statistics</code>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🔥 Burnout Bayesian Network</h4>
+      <img src="https://img.shields.io/badge/Causal%20modeling-9D4EDD?style=flat-square"/>
+      <p><sub>Bayesian network modeling the causal links between workload, stress and exhaustion. <b>Evidence propagation</b> with pyAgrum and real-time risk simulation in an app.</sub></p>
+      <code>Python</code> <code>pyAgrum</code> <code>Probabilistic AI</code>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🧬 Prostate Cancer · PSA</h4>
+      <img src="https://img.shields.io/badge/R%C2%B2%20test-0.665-2CB67D?style=flat-square"/>
+      <p><sub>Predicting PSA levels from clinical data. OLS vs <b>Ridge, Lasso, Elastic Net</b>, PLS/PCR, Random Forest and XGBoost with 10-fold CV. Lasso keeps 5 of 10 variables with zero overfitting.</sub></p>
+      <code>Python</code> <code>Scikit-learn</code> <code>Regularization</code>
+    </td>
+  </tr>
+</table>
+
 <!-- ===================== STACK ===================== -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7F5AF0,100:2CB67D&height=3&section=header" width="100%"/>
 
@@ -112,6 +157,7 @@ class Ameni:
       <img src="https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white"/>
       <img src="https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square"/>
       <img src="https://img.shields.io/badge/XGBoost-337AB7?style=flat-square"/>
+      <img src="https://img.shields.io/badge/pyAgrum-6A5ACD?style=flat-square"/>
     </td>
   </tr>
   <tr>
