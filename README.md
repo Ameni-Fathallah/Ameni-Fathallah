@@ -32,10 +32,6 @@ I'm a Master's student in **Artificial Intelligence, Data & Agentic** at **Unive
 
 I started out shipping full-stack web products, and that's still how I think about AI: a model is only useful once people can actually use it. Today I focus on **RAG, LLM agents and NLP**, with a solid base in classical machine learning.
 
-- 🔭 Contributing to **FAME**, a benchmark for LLM investment agents (Dauphine × HEC Montréal)
-- 🏆 Graduated **1st in my class**, highest honors
-- 🎯 Looking for a **6-month end-of-studies internship from February 2027**
-
 </td>
 <td width="45%" valign="top">
 
