@@ -1,6 +1,6 @@
 <!-- ===================== HEADER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:7F5AF0,50:9D4EDD,100:2CB67D&height=220&section=header&text=Ameni%20Fathallah&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20in%20the%20making%20%E2%80%A2%20Paris&descSize=18&descAlignY=60&animation=twinkling" alt="Ameni Fathallah"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:7F5AF0,50:9D4EDD,100:2CB67D&height=220&section=header&text=Ameni%20Fathallah&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20in%20the%20making%20%E2%80%A2%20&descSize=18&descAlignY=60&animation=twinkling" alt="Ameni Fathallah"/>
 </p>
 
 <p align="center">
