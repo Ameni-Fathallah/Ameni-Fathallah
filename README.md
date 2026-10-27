@@ -35,7 +35,6 @@ I started out shipping full-stack web products, and that's still how I think abo
 - 🔭 Contributing to **FAME**, a benchmark for LLM investment agents (Dauphine × HEC Montréal)
 - 🏆 Graduated **1st in my class**, highest honors
 - 🎯 Looking for a **6-month end-of-studies internship from February 2027**
-- 🤾 11 years of handball · 🍰 pastry enthusiast
 
 </td>
 <td width="45%" valign="top">
