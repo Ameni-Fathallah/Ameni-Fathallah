@@ -40,7 +40,7 @@ class Ameni:
     school   = "Paris Dauphine-PSL"
     degree   = "M2 AI, Data & Agentic"
     focus    = ["LLMs", "RAG", "AI Agents",
-                "NLP", "Machine Learning"]
+                "NLP", "Deep Learning", "Machine Learning"]
     also     = ["Next.js", "FastAPI", "Cloud"]
     speaks   = ["French", "English", "Spanish"]
     looking  = "6-month internship, Feb 2027"
@@ -59,6 +59,25 @@ class Ameni:
 ## 🚀 Featured projects
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🗄️ Text-to-SQL · Encoder–Decoder from scratch <sub><sup>🆕 latest</sup></sub></h3>
+      <img src="https://img.shields.io/badge/Seq2Seq%20%2B%20Attention-9D4EDD?style=flat-square"/> <img src="https://img.shields.io/badge/Exact%20match-25%25%20%E2%86%92%2045%25-2CB67D?style=flat-square"/> <img src="https://img.shields.io/badge/Trained%20from%20scratch-no%20pretrained%20model-7F5AF0?style=flat-square"/>
+      <p>Turns a question in plain English into the SQL query that answers it. Three encoder–decoder architectures built and trained <b>from scratch in PyTorch</b> on 75K examples: an LSTM baseline, an LSTM with <b>Bahdanau attention</b> and a <b>Transformer</b>, evaluated with exact match, BLEU, perplexity and SQL validity.</p>
+      <details>
+      <summary><b>💡 What I learned</b></summary>
+      <br/>
+
+- **Attention is what makes copying work.** It added +19.7 points of exact match and cut errors in the `WHERE` clause from 28% to 10%: the heatmaps show the model reading the schema to pick a column, and the question to copy a value.
+- **Newer is not always better.** The Transformer overfit on 60K examples and stayed at baseline level, even though it trained 3.5× faster.
+- **Error analysis beats scores.** 39% of queries contain a word outside the vocabulary, which caps exact match at about 61%: the next step is a copy mechanism, not a bigger model.
+- **Decoding tricks have a cost.** Beam search gained only +0.3 point for 6× slower generation.
+- **A fair comparison needs discipline.** Same data, same seed and same batch order for every model.
+
+</details>
+      <code>PyTorch</code> <code>LSTM</code> <code>Attention</code> <code>Transformer</code> <code>NLTK BLEU</code> <code>SQLite</code>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🔎 TalentLens</h3>
@@ -143,7 +162,7 @@ class Ameni:
   <tr>
     <td align="center" width="140"><b>🧠 AI / ML</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=python,sklearn,r&theme=dark" height="42"/>
+      <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,r&theme=dark" height="42"/>
       <br/>
       <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
       <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
